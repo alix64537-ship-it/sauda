@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1794826075089,
+      "tag": "0000_marketplace_core",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1794946358646,
+      "tag": "0001_dashboard_status_profile_fields_job_applications",
+      "breakpoints": true
+    }
+  ]
+}
