@@ -499,4 +499,24 @@ function MedCareHome() {
                 <button
                   type="button"
                   onClick={() => setSelectedDoctor(null)}
-                  className="flex-1 py-2.5 border border-slate-300 rounded-xl text-
+                                    className="flex-1 py-2.5 border border-slate-300 rounded-xl text-sm font-medium text-slate-700"
+                >
+                  Отмена
+                </button>
+                <button
+                  type="submit"
+                  disabled={submitting}
+                  className="flex-1 py-2.5 bg-teal-700 hover:bg-teal-800 text-white rounded-xl text-sm font-medium"
+                >
+                  {submitting ? "Сохранение..." : "Подтвердить"}
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+                  
